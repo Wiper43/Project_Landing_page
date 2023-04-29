@@ -1,0 +1,152 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #ffffff;
+    overflow:auto;
+    margin:0;
+    padding:0;
+    text-align:center;
+  
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+}
+                    /* HEADER SECTION */
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:#1f2937;
+    color:white;
+    
+   
+}
+.header .logo{
+ margin-left:24px;
+}
+.header img{
+    width:auto;
+    height: 100px;
+}
+
+
+.header .right-links{
+    display:flex;
+    gap:24px;
+    margin:24px 24px;
+    padding:24px;
+}
+
+a{ color:white;}
+a:link{
+    text-decoration:none;
+    color:white;
+}
+
+                                /* hero section  */
+
+.hero{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937;
+    color:white;
+    padding: 90px;
+    gap:10px;
+}
+.hero .left{
+    margin-left: 100px;
+    display:flex;
+    flex-direction:column;
+    flex-basis: 400px;
+    text-align: left;
+    gap:10px;
+    margin-bottom: 10px; 
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin:0;}
+p{
+    margin:0;
+}
+
+.hero button{
+    border-radius: 8px;
+    width:120px;
+    background-color: #3882f6;
+    color:white;
+    padding:5px;
+}
+.hero .right{
+    margin-right: 100px;
+    margin-bottom: 10px;
+}   
+.hero .right img{
+    width:auto;
+    height: 250px;}
+
+                        /* IMAGES SECTION */
+.images{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}                       
+.images .top-part{
+    margin:50px 0;
+    font-size: 36px; 
+    color:#1f2937;
+}
+.images .bottom-part{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding: 0 400px 50px 400px;
+    
+    gap:10px;
+    font-size: 15px;
+    
+    
+   
+}
+.bottom-part img{
+    border-radius: 20px;
+    border: 3px solid blue;
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding:5px;
+}
+                            /* quote section */
+.quote{
+    display:flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 20px;
+    font-style:italic;
+    font-weight: 100;
+    padding:50px 400px;
+}
+
+.quote b{
+    text-align: right;
+}
+
+                            /* SIGN UP */
+
+
+
+                                /*FOOTER*/
+.footer{
+    background-color:#1f2937;
+    padding:20px 0;
+    color:white;}
