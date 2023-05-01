@@ -1,5 +1,6 @@
 *{
     font-family: 'Roboto', sans-serif;
+    font-size:20px;
 }
 body{
     background-color: #ffffff;
@@ -55,7 +56,8 @@ a:link{
     background-color:#1f2937;
     color:white;
     padding: 90px;
-    gap:10px;
+    gap:25px;
+    flex-basis:800px;
 }
 .hero .left{
     margin-left: 100px;
@@ -86,33 +88,38 @@ p{
     margin-bottom: 10px;
 }   
 .hero .right img{
-    width:auto;
-    height: 250px;}
+    width:400px;
+    height: auto;}
 
                         /* IMAGES SECTION */
 .images{
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
+
     
 }                       
 .images .top-part{
-    margin:50px 0;
+    margin:25px 0px 25px 0px;
     font-size: 36px; 
     color:#1f2937;
+    font-weight:bold;
 }
 .images .bottom-part{
     display:flex;
-    align-items:center;
+   
     justify-content: center;
-    padding: 0 400px 50px 400px;
-    
-    gap:10px;
+    flex-wrap:wrap;
+    /* padding: 0 400px 50px 400px; */
+    margin-bottom:50px;
+    gap:100px;
     font-size: 15px;
     
     
    
 }
+.images .bottom-part p{
+    display:block;
+    width:100px;
+}
+
 .bottom-part img{
     border-radius: 20px;
     border: 3px solid blue;
@@ -131,18 +138,74 @@ img{
     display:flex;
     flex-direction: column;
     background-color: #e5e7eb;
+    align-items: center;
+    
+    
+}
+
+.quote p{
     font-size: 20px;
     font-style:italic;
     font-weight: 100;
-    padding:50px 400px;
+    padding:50px 200px;
+    text-align:left;
+    max-width: 800px;
+    padding-bottom:10px;
 }
 
-.quote b{
-    text-align: right;
+.quote .bold{
+    padding:0;
+    margin:0;
+    width: 800px;
+    text-align:right; 
+    font-weight:bolder;
+    margin-bottom:50px;
 }
 
                             /* SIGN UP */
+.sign-up{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
 
+}
+
+.blue-container{
+
+    display:flex;
+    
+    align-items: center;
+    background-color:#3882f6;
+    border:none;
+    height:100px;
+    width:800px;
+    margin:50px 100px;
+    border-radius: 10px;
+    padding:25px;
+}
+
+.blue-container .text-left{
+    padding: 0 50px;
+    color: white;
+    flex: 1;
+    text-align:left;
+}
+
+.blue-container .button-right{
+    padding: 0 50px;
+}
+
+.blue-container button{
+    padding: 5px 50px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color:#3882f6;
+    color: white;
+    width: fit-content;
+    font-size: 12px;
+    
+}
 
 
                                 /*FOOTER*/
